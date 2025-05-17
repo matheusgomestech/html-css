@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Android</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+    <style>
+        @font-face {
+            font-family: 'idroid' ;
+            src: url(idroid.otf); format ('opentype');
+        }
+
+        body {
+            background-color: rgba(2, 99, 2, 0.377);
+        }
+       main {
+            color: rgb(255, 250, 250);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration: solid;
+            text-align: center;
+            background-color: rgb(84, 182, 84);
+          
+            }
+
+                /* Estilo para o menu */
+        div#menu {
+        background-color: #065f46; /* verde escuro bonito */
+        padding: 10px 0;
+        }
+
+        /* Remove o estilo padrão da lista */
+        div#menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* centraliza os itens no menu */
+        gap: 20px; /* espaçamento entre os links */
+        }
+
+        /* Estilo dos links do menu */
+        div#menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        }
+
+        /* Hover para os links */
+        div#menu ul li a:hover {
+        background-color: #34d399; /* verde claro */
+        color: black;
+        }
+
+            article {
+                background-color: white;
+            }
+            main > h1 {
+                color: yellow;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 1.2em; /* essa fonte é pequena por padrão */
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            }
+        
+
+        article > h2 {
+            font-family: 'idroid';
+        }
+
+        article > h3 {
+            font-family: 'idroid';
+            background-color: green;
+        }
+
+        article > p#Dan {
+            text-align: center;
+            color: black;
+        }
+        div#extra {
+            background-color: rgb(2, 165, 165);
+            border-radius: 20px 0px;
+        }
+
+        div#extra > h3 {
+            background-color: aqua;
+            font-size: 2em;
+            font-family: 'idroid';
+        }
+
+        div#adroidq {
+            background-color: rgba(0, 0, 255, 0.185);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p#gustavo {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: aquamarine;
+        }
+
+                @media (max-width: 600px) {
+        div#menu ul {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        div#menu ul li a {
+            padding: 8px 12px;
+            width: 100%;
+            text-align: center;
+        }
+
+        main h1 {
+            font-size: 1.5em;
+        }
+
+        iframe {
+            width: 100%;
+            height: auto;
+        }
+        }
+
+                main, article, div#extra, div#androidq {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+        }
+
+        img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+        }
+
+        .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* proporção 16:9 */
+        height: 0;
+        overflow: hidden;
+        }
+
+        .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        }
+
+    p#mascote {
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Curiosidades de Tecnologia</h1> <br>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+    </main>
+        <nav>
+            
+            <div id="menu">
+                <ul>
+                  <li><a href="#">Página inicial</a></li>
+                  <li><a href="#">Sobre</a></li>
+                  <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            
+            </nav>
+
+
+
+   <article>
+    <h2>História do Mascote do Android</h2>
+    <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+    
+        <h3>A Primeira Versão</h3>
+        <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o <a href="https://inkscape.org/pt-br/" target="_blank">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+
+        <img src="dan-droids.png" alt="dan-droids"> 
+        <p id="Dan">Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <em>Dandroids.</em></p>
+        
+        <h3>Surge um novo mascote</h3>
+        <p> A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/" target="_blank">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+        </p>
+        <img src="irina-blok.jpg" alt="">
+        <p> A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+        <img src="bugdroid.png" alt="">
+        <p> A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/5K4pEk19nhs" ...></iframe>
+          </div>
+           
+   </article>
+
+   <div id="extra">
+    <h3>Quer aprender mais?</h3>
+    <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+    </p>
+
+        <li>1.5 - Cupcake</li>
+    <li>1.6 - Donut</li>
+    <li>3.0 - Eclair</li>
+    <li>2.2 - Froyo</li>
+    <li>2.3 - Gingerbread</li>
+    <li>3.0 - Honeycomb</li>
+    <li>4.0 - Ice Cream Sandwich</li>
+    <li>4.1 - Jelly Bean</li>
+    <li>4.4 - KitKat</li>
+    <li>5.0 - Lolipop</li>
+    <li>6.0 - Marshmallow</li>
+    <li>7.0 - Nougat</li>
+    <li>8.0 - Oreo</li>
+    <li>9.0 - Pie</li>
+
+   </div>
+
+   <div id="androidq">
+    <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+
+        <a href="https://www.geeksforgeeks.org/history-of-android/" target="_blank">Acesse aqui</a> o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+   </div>
+
+   <p id="mascote">Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.</p>
+
+   <p id="gustavo">Site criado por Matheus Gomes para estudos no CursoemVideo.</p>
+</body>
+</html>
